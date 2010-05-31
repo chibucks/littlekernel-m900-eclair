@@ -1,0 +1,1 @@
+#define IF_NOT_FEATURE_SUID_CONFIG_QUIET(...) __VA_ARGS__

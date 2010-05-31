@@ -1,0 +1,32 @@
+		 .oooooo..o oooooooooo.   ooooooo  ooooo 
+		d8P'    `Y8 `888'   `Y8b   `8888    d8'  
+		Y88bo.       888      888    Y888..8P    
+		 `"Y8888o.   888      888     `8888'     
+		     `"Y88b  888      888    .8PY888.    
+		oo     .d8P  888     d88'   d8'  `888b   
+		8""88888P'  o888bood8P'   o888o  o88888o
+		----====HAXSUNG DEVELOPERS GROUP====----
+		     http://www.sdx-developers.com/
+
+Release: busybox
+Version: v1.16.1_SDX-LouZiffer-v1.01
+HW Platform: Samsung m900 (Moment)
+SW Platform: Android 2.1 (Eclair)
+Maintainer: LouZiffer (louie@rps.net)
+Credit: Busybox team for their code. joeykrim and speedrabbit for original 
+base config. SDX Developers for being awesome.
+
+Description: Busybox implementation for the Samsung Moment running Android 2.1.
+For full feature list see:
+http://forum.sdx-developers.com/android-2-1-development/(source)-sdx-busybox-for-android-2-1/
+
+Notes
+-----
+- .config_standard is for use in standard boot mode.
+- .config_recovery is for use in recovery boot mode.
+- YOU MUST CROSS-COMPILE THIS CODE FOR IT TO WORK PROPERLY ON THE MOMENT.
+  Please make note of the toolchain location in the .config files and alter 
+  if needed.
+- DNS will not function without a resolv.conf in /system/etc. Use the sample
+  resolv.conf or make your own.
+- Please see README-orig for the original busybox readme.
