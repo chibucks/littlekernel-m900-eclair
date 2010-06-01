@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/staging/built-in.o drivers/staging/staging.o drivers/staging/android/built-in.o 

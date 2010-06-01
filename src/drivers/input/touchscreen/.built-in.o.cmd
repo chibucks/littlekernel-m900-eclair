@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/melfas_m900_ts.o drivers/input/touchscreen/melfas_download.o 

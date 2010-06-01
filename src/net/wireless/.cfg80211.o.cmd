@@ -1,0 +1,1 @@
+cmd_net/wireless/cfg80211.o := /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o net/wireless/cfg80211.o net/wireless/core.o net/wireless/sysfs.o net/wireless/radiotap.o net/wireless/util.o net/wireless/reg.o net/wireless/wext-compat.o net/wireless/nl80211.o 

@@ -1,0 +1,1 @@
+cmd_drivers/power/power_supply.o := /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/power/power_supply.o drivers/power/power_supply_core.o drivers/power/power_supply_sysfs.o 

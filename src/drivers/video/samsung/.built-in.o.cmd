@@ -1,0 +1,1 @@
+cmd_drivers/video/samsung/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/video/samsung/built-in.o drivers/video/samsung/s3cfb.o drivers/video/samsung/s3cfb_spi.o drivers/video/samsung/s3cfb_fimd4x.o drivers/video/samsung/s3cfb_ams320fs01.o 

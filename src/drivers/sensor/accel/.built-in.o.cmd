@@ -1,0 +1,1 @@
+cmd_drivers/sensor/accel/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/sensor/accel/built-in.o drivers/sensor/accel/bma020_i2c.o drivers/sensor/accel/bma020.o drivers/sensor/accel/bma020_acc.o 

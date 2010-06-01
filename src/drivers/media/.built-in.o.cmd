@@ -1,0 +1,1 @@
+cmd_drivers/media/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/media/built-in.o drivers/media/common/built-in.o drivers/media/video/built-in.o drivers/media/radio/built-in.o 

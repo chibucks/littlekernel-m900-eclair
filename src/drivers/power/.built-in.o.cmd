@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/power/built-in.o drivers/power/power_supply.o drivers/power/s3c6410_battery.o 

@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o drivers/bluetooth/built-in.o drivers/bluetooth/hci_vhci.o drivers/bluetooth/hci_uart.o 

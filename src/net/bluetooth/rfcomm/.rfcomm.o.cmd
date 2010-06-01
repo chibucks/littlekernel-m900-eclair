@@ -1,0 +1,1 @@
+cmd_net/bluetooth/rfcomm/rfcomm.o := /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o net/bluetooth/rfcomm/rfcomm.o net/bluetooth/rfcomm/core.o net/bluetooth/rfcomm/sock.o net/bluetooth/rfcomm/tty.o 

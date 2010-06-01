@@ -1,0 +1,1 @@
+cmd_fs/notify/inotify/built-in.o :=  /home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-ld -EL    -r -o fs/notify/inotify/built-in.o fs/notify/inotify/inotify.o fs/notify/inotify/inotify_user.o 
