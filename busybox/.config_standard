@@ -49,8 +49,8 @@ CONFIG_STATIC=y
 # CONFIG_FEATURE_INDIVIDUAL is not set
 # CONFIG_FEATURE_SHARED_BUSYBOX is not set
 CONFIG_LFS=y
-CONFIG_CROSS_COMPILER_PREFIX="/home/moment/toolchain/uClibc/buildroot-2010.02/output/staging/usr/bin/arm-linux-uclibcgnueabi-"
-CONFIG_EXTRA_CFLAGS="-I /home/moment/toolchain/uClibc/buildroot-2010.02/output/staging/usr/include"
+CONFIG_CROSS_COMPILER_PREFIX="/home/john/sources/toolchain-zefie/usr/bin/arm-linux-uclibcgnueabi-"
+CONFIG_EXTRA_CFLAGS="-I //home/john/sources/toolchain-zefie/usr/include"
 
 #
 # Debugging Options
